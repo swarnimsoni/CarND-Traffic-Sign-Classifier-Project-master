@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 [pc]: ./projectGraphsAndImages/pieChart.png "Relative sizes of Training, Validation and Test sets"
 [fdi]: ./examples/fdi.png "Frequency Distribution of Training, Validation and Test sets"
 [fdr]: ./projectGraphsAndImages/fdr.png "Relative Distribution of Training, Validation and Test sets"
-[ns]: ./projectGraphsAndImages/newSigns.png "New Test Signs from Web"
+[nsigns]: ./projectGraphsAndImages/newSigns.png "New Test Signs from Web"
 [somesignsamples]: ./projectGraphsAndImages/somesingsamples.png "Samples of images from training set"
 [aftertraining]: ./projectGraphsAndImages/aftertraining.png "Validation and Training Accuracies at each epoch"
 
@@ -130,7 +130,7 @@ My final model results were:
 
 Here are the six German traffic signs that I found on the web:
 
-![New Signs][ns]
+![New Signs][nsigns]
 
 The most misclassified signs were the speed sign, probably because it was not easy for the model to figure out what is the speed written on the sign (e.g. 50, 80 etc).
 
@@ -159,55 +159,104 @@ Following are the predictions and their corresponding probabilities for each new
 
 
 Speed limit (30km/h):
-|Probabilities        |     Predicted labels|
+
+|Probabilities        |     Predicted labels				|
+
 |:---------------------:|:---------------------------------------------:|
-|1.0                  | Speed limit (30km/h)|
-|1.6371764388622978e-08 | End of all speed and passing limits|
+
+|1.0                  | Speed limit (30km/h)				|
+
+|1.6371764388622978e-08 | End of all speed and passing limits		|
+
 |1.0936039851472401e-09 | Speed limit (80km/h)|
+
 |7.00144164866856e-10 | Speed limit (50km/h)|
+
 |2.359038520083345e-10 | End of speed limit (80km/h)|
+
 
 Bumpy road:
 |Probabilities        |     Predicted labels|
+
 |:---------------------:|:---------------------------------------------:|
+
 |0.9997866749763489   |           Bumpy road|
+
 |0.0002128941414412111 |    Bicycles crossing|
+
 |4.209207986605179e-07 |          No vehicles|
+
 |1.9457909061770806e-08 |            Road work|
+
 |6.915800820905815e-09 |    Children crossing|
+
 
 Ahead only:
 |Probabilities        |     Predicted labels|
+
 |:---------------------:|:---------------------------------------------:|
+
 |1.0                  |           Ahead only|
+
 |1.2349278544210307e-10 | Go straight or right|
+
 |5.813883039275727e-14 |     Turn right ahead|
+
 |2.5894293558871052e-14 | End of no passing by vehicles over 3.5 metric tons|
+
 |2.2983336086623667e-14 | Speed limit (60km/h)|
 
+
+
+
 No vehicles:
+
 |Probabilities        |     Predicted labels|
+
 |:---------------------:|:---------------------------------------------:|
+
 |0.9536492824554443   |          No vehicles|
+
 |0.02079581283032894  |           Keep right|
+
 |0.016727346926927567 | Speed limit (30km/h)|
+
 |0.003337420057505369 | Speed limit (70km/h)|
+
 |0.0019288352923467755 | Dangerous curve to the left|
 
+
+
 Go straight or left:
+
 |Probabilities        |     Predicted labels|
+
 |:---------------------:|:---------------------------------------------:|
+
 |0.9999997615814209   |  Go straight or left|
+
 |1.8720216132805945e-07 |      Traffic signals|
+
 |2.3480199118353084e-08 | Roundabout mandatory|
+
 |1.921543990590635e-08 |           Ahead only|
+
 |1.8783556932078227e-09 |            Keep left|
 
+
+
 General caution:
+
 |Probabilities        |     Predicted labels|
+
 |:---------------------:|:---------------------------------------------:|
+
 |1.0                  |      General caution|
+
 |1.9183195216554018e-18 |      Traffic signals|
+
 |8.115583761067746e-19 |          Pedestrians|
+
 |1.691646267405164e-25 |            Road work|
+
 |3.457907683087756e-26 | Right-of-way at the next intersection|
