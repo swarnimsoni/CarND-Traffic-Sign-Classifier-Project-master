@@ -22,8 +22,15 @@ The goals / steps of this project are the following:
 [fdi]: ./examples/fdi.png "Frequency Distribution of Training, Validation and Test sets"
 [fdr]: ./projectGraphsAndImages/fdr.png "Relative Distribution of Training, Validation and Test sets"
 [nsigns]: ./projectGraphsAndImages/newsigns.png "New Test Signs from Web"
-[somesignsamples]: ./projectGraphsAndImages/somesingsamples.png "Samples of images from training set"
+
 [aftertraining]: ./projectGraphsAndImages/aftertraining.png "Validation and Training Accuracies at each epoch"
+
+[1.png]: ./newSignImages/1.png
+[2.png]: ./newSignImages/2.png
+[3.png]: ./newSignImages/3.png
+[4.png]: ./newSignImages/4.png
+[5.png]: ./newSignImages/5.png
+[6.png]: ./newSignImages/6.png
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -44,7 +51,7 @@ I have used a model very similar to that in LeNet lab solution, however, my solu
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
 Here is a link to my [project code](https://github.com/swarnimsoni/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb) along with its HTML version. My project write up is in [writeup_report.md](https://github.com/swarnimsoni/CarND-Traffic-Sign-Classifier-Project/blob/master/writeup_report.md)
-
+nn
 ### Data Set Summary & Exploration
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
@@ -130,7 +137,24 @@ My final model results were:
 
 Here are the six German traffic signs that I found on the web:
 
-![New Signs][nsigns]
+Speed limit (30km/h)
+![Speed limit (30km/h)][1.png]
+
+Bumpy road
+![Bumpy road][2.png]
+
+Ahead only
+![Ahead only][3.png]
+
+No vehicles
+![No vehicles][4.png]
+
+Go straight or left
+![Go straight or left][5.png]
+
+General caution
+![General caution][1.png]
+
 
 The most misclassified signs were the speed sign, probably because it was not easy for the model to figure out what is the speed written on the sign (e.g. 50, 80 etc).
 
