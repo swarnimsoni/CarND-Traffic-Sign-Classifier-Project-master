@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [pc]: ./projectGraphsAndImages/pieChart.png "Relative sizes of Training, Validation and Test sets"
-[fdi]: ./examples/fdi.png "Frequency Distribution of Training, Validation and Test sets"
+[fdi]: ./projectGraphsAndImages/fdi.png "Frequency Distribution of Training, Validation and Test sets"
 [fdr]: ./projectGraphsAndImages/fdr.png "Relative Distribution of Training, Validation and Test sets"
 [nsigns]: ./projectGraphsAndImages/newsigns.png "New Test Signs from Web"
 
